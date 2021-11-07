@@ -1,18 +1,19 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FooterComponent } from './components/footer/footer.component';
-import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { SideBarComponent } from './components/side-bar/side-bar.component';
+import { ChartComponent } from './components/chart/chart.component';
+import { CheckoutComponent } from './components/checkout/checkout.component';
+import { AppRoutingModule } from './app-routing.module';
+import { MainComponent } from './components/main/main.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponent,
-    FooterComponent,
-    SideBarComponent
+    SideBarComponent,
+    ChartComponent,
+    CheckoutComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
